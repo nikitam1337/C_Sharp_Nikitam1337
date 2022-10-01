@@ -10,5 +10,9 @@ if (userNumber2 > userNumber1)
 {
     Console.WriteLine(userNumber1 + " меньше чем " + userNumber2);
 }
-else 
+else if (userNumber2 < userNumber1)
+{
     Console.WriteLine(userNumber2 + " меньше чем " + userNumber1);
+}
+else
+    Console.WriteLine(userNumber1 + " равно " + userNumber2);
