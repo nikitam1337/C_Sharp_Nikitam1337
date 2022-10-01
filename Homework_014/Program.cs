@@ -1,4 +1,6 @@
-﻿Console.Write("Введите первое число: ");
+﻿//Напишите программу, которая принимает на вход три числа и выдаёт максимальное из этих чисел
+
+Console.Write("Введите первое число: ");
 string userInput1 = Console.ReadLine() ?? "";
 int userNumber1 = int.Parse(userInput1);
 
@@ -21,4 +23,4 @@ else if (max < userNumber3)
     max = userNumber3;
 }
 
-Console.WriteLine("максимальное число " + max);
+Console.WriteLine("максимальное число: " + max);

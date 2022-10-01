@@ -1,24 +1,26 @@
-﻿Console.Write("Введите число: ");
+﻿//Напишите программу, которая на вход принимает число (N), а на выходе показывает все четные числа от 1 до N
+
+Console.Write("Введите число: ");
 string userInput = Console.ReadLine() ?? "";
-int a = int.Parse(userInput);
+int N = int.Parse(userInput);
 int x = 1;
 
-Console.Write(a + " -> ");
+Console.Write(N + " -> ");
 
-while (x <= a)
+while (x <= N)
     if (x%2==0)
     {
         Console.Write(x);
-        if(a%2==0)
+        if(N%2==0)
         {
-            if(x < a)
+            if(x < N)
             {
                 Console.Write(", ");
             }
         }
         else
         {
-            if(x < a -1)
+            if(x < N -1)
             {
                 Console.Write(", ");
             }

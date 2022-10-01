@@ -1,4 +1,6 @@
-﻿Console.Write("Введите число: ");
+﻿//Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным.
+
+Console.Write("Введите число: ");
 string userInput = Console.ReadLine() ?? "";
 double a = double.Parse(userInput);
 
