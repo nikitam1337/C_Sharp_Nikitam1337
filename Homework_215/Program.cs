@@ -22,3 +22,5 @@ else if (num1 < 6)
     Console.WriteLine($"{num1} -> нет");
 else if (7 < num1)
     Console.WriteLine($"Ошибка ввода!");
+
+// Добавил этоу строку со своего ноута
